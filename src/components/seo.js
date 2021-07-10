@@ -1,89 +1,34 @@
 /**
- * SEO component that queries for data with
+ * Seo component that queries for data with
  *  Gatsby's useStaticQuery React hook
  *
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
-
-function Seo({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-          }
-        }
-      }
-    `
-  )
-
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
-
-  return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
-    />
-  )
-}
-
-Seo.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``,
-}
-
-Seo.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
-}
-
-export default Seo
+ import * as React from "react"
+ import { Helmet } from "react-helmet"
+ 
+ function Seo(content) {
+ 
+   console.log(content.title)
+   console.log(content.description)
+   return (
+     <Helmet>
+       <title>VivaLaKiara - From the KFP</title>
+       <meta name="title" content={content.title}/>
+       <meta name="description" content={content.description}/>
+       <meta property="og:type" content="website"/>
+       <meta property="og:url" content="https://vivalakiara.com/"/>
+       <meta property="og:title" content={content.title}/>
+       <meta property="og:description" content={content.description}/>
+       <meta property="og:image" content={content.image}/>
+       <meta property="twitter:card" content="summary_large_image"/>
+       <meta property="twitter:url" content="https://twitter.com/KFP_TheOffice"/>
+       <meta property="twitter:title" content={content.title}/>
+       <meta property="twitter:description" content={content.description}/>
+       <meta property="twitter:site" content="KiaraFamilyNews"/>
+       <meta property="twitter:image" content={content.image}></meta>
+     </Helmet>
+   )
+ }
+ export default Seo
