@@ -7,6 +7,7 @@ import "../styles/index.css"
 
 import twitterLogo from "../images/twitter-logo-blk.svg"
 import youtoriLogo from "../images/youtori-logo-blk.png"
+import placeHolderImage from "../images/Et2G4dMXUAED6mL.jpg"
 import backgroundImage from "../images/liobg.jpg"
 import backgroundImageWebp from "../images/liobg.webp"
 import webpCheck from "../components/webpCheck"
@@ -57,42 +58,22 @@ export default class IndexPage extends React.Component {
                 <span role="button" tabIndex="0" class="arrow-button" onClick={() => {  }}>
                     <span id="sidenav-toggle" class="arrow"><span></span><span></span></span>
                 </span>
-                    <div id="home-social">
-                    </div>
-                    <div className="home-title">Thank You Pekorin!</div>
-                    <div className="home-nav-contents">
+                    <div className="common-content-container home-nav-contents">
                         <div className="nav-category">
-                            <h4>KFP Cats</h4>
-                            <ul>
-                                <li><Link to="/birthday/cats">Cats of the KFP</Link></li>
-                            </ul>
+                            <img src={placeHolderImage}/>
+                            Messages
                         </div>
                         <div className="nav-category">
-                            <h4>Birthday Song</h4>
-                            <ul>
-                                <li><Link to="/birthday/birthdaySong">Fiery Phoenix Queen</Link></li>
-                            </ul>
+                            <img src={placeHolderImage}/>
+                            Minecraft
                         </div>
                         <div className="nav-category">
-                            <h4>Resurrection</h4>
-                            <ul>
-                                <li><Link to="/birthday/resurrection">Day of Remembrance</Link></li>
-                            </ul>
+                            <img src={placeHolderImage}/>
+                            Article
                         </div>
                         <div className="nav-category">
-                            <h4>Minecraft</h4>
-                            <ul>
-                                <li><Link to="/birthday/ciudad">Ciudad Del Fenix</Link></li>
-                                <li><Link to="/birthday/automatedKfp">Automated KFP Restaurant</Link></li>
-                            </ul>
-                        </div>
-                        <div className="nav-category">
-                            <h4>From the KFP</h4>
-                            <ul>
-                                <li><Link to="/birthday/cameo">Cameo</Link></li>
-                                <li><Link to="/birthday/messages">Birthday Messages</Link></li>
-                                <li><Link to="/birthday/credits">Credits</Link></li>
-                            </ul>
+                            <img src={placeHolderImage}/>
+                           Credits
                         </div>
                     </div>
                 </div>
