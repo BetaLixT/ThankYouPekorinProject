@@ -27,8 +27,48 @@ body {
 }
 
 #navbar {
-  background-color: rgba(0, 0, 0, 0.4) !important;
-  backdrop-filter: blur(10px);
+  padding: 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 40000;
+}
+
+#navbar.scrolling {
+  padding: 20px;
+  padding-bottom: 5px;
+  backdrop-filter: blur(30px);
+}
+
+#navbar h2 {
+  font-size: 1.2rem;
+  padding-right: 30px;
+}
+
+.nav-content.pagelink {
+  margin: 0px;
+  margin-left: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-content p {
+  cursor: pointer;
+}
+
+#navbar .nav-content{
+  float: left;
+  color: black;
+}
+
+#navbar a {
+  color: #000;
+  text-decoration: none;
+}
+
+#navbar .nav-content.right{
+  float: right;
+  color: black;
 }
 
 .credits{
@@ -49,6 +89,22 @@ body {
   color: #cccccc;
   border-radius: 5px;
   text-align: center;
+}
+
+.articles-nobg{
+  padding: 30px 100px 10px 100px;
+  margin: 40px 0px 40px 0px;
+  color: #000;
+  text-align: center;
+}
+
+.articles-nobg p{
+  font-weight: 500;
+}
+
+.blur {
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
 }
 
 #brand-logo{

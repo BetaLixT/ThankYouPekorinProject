@@ -64,7 +64,7 @@ a#link1, a#link2, a#link3 {
 
 .arrow-button
 {
-  cursor: pointer;
+  cursor: default;
 }
 .arrow
 {
@@ -107,13 +107,13 @@ a#link1, a#link2, a#link3 {
 #above-navigation{
     height: calc(100vh - 50px);
 }
-
+/* #e9c56ac9 */
 #navigation {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: rgb(236, 210, 183);
-    backdrop-filter: blur(10px);
+    background-color: #e76551c7; 
+    backdrop-filter: blur(20px);
     color: #000;
     min-height: 412px;
 }
@@ -166,6 +166,7 @@ a#link1, a#link2, a#link3 {
     display: inline-block;
     width: 50%;
     text-align: center;
+    padding: 5px;
 }
 .nav-category img {
     max-width: 90%;

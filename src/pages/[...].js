@@ -3,6 +3,7 @@ import React from "react"
 import { Router } from "@reach/router"
 import Index from "../page-components/index"
 import Seo from "../components/seo"
+import Messages from "../page-components/messages"
 
 
 const App = () => {
@@ -13,6 +14,10 @@ const App = () => {
         image="https://vivalakiara.com/lio-meta-art.jpg"/>
       <Router basepath="/">
         <Index path="/" />
+        <Messages path="/messages" />
+        <Index path="/minecraft" />
+        <Index path="/article" />
+        <Index path="/credits" />
       </Router>
     </div>
   )

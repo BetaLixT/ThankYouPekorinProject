@@ -63,20 +63,28 @@ export default class IndexPage extends React.Component {
                     <div className="common-content-container home-nav-contents">
                     <h2>Projects</h2>
                         <div className="nav-category">
-                            <img src={placeHolderImage}/>
-                            Messages
+                            <Link to="/messages">
+                                <img src={placeHolderImage}/>
+                                Messages
+                            </Link>
                         </div>
                         <div className="nav-category">
-                            <img src={placeHolderImage}/>
-                            Minecraft
+                            <Link to="/minecraft">
+                                <img src={placeHolderImage}/>
+                                Minecraft
+                            </Link>
                         </div>
                         <div className="nav-category">
-                            <img src={articleImage}/>
-                            Article
+                            <Link to="/article">
+                                <img src={articleImage}/>
+                                Article
+                            </Link>
                         </div>
                         <div className="nav-category">
-                            <img src={creditsImage}/>
-                           Credits
+                            <Link to="/credits">
+                                <img src={creditsImage}/>
+                                Credits
+                            </Link>
                         </div>
                     </div>
                 </div>
