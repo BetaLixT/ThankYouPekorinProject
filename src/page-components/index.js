@@ -8,6 +8,8 @@ import "../styles/index.css"
 import twitterLogo from "../images/twitter-logo-blk.svg"
 import youtoriLogo from "../images/youtori-logo-blk.png"
 import placeHolderImage from "../images/Et2G4dMXUAED6mL.jpg"
+import creditsImage from "../images/slime-credits.jpg"
+import articleImage from "../images/yuka-article.jpg"
 import backgroundImage from "../images/liobg.jpg"
 import backgroundImageWebp from "../images/liobg.webp"
 import webpCheck from "../components/webpCheck"
@@ -59,6 +61,7 @@ export default class IndexPage extends React.Component {
                     <span id="sidenav-toggle" class="arrow"><span></span><span></span></span>
                 </span>
                     <div className="common-content-container home-nav-contents">
+                    <h2>Projects</h2>
                         <div className="nav-category">
                             <img src={placeHolderImage}/>
                             Messages
@@ -68,11 +71,11 @@ export default class IndexPage extends React.Component {
                             Minecraft
                         </div>
                         <div className="nav-category">
-                            <img src={placeHolderImage}/>
+                            <img src={articleImage}/>
                             Article
                         </div>
                         <div className="nav-category">
-                            <img src={placeHolderImage}/>
+                            <img src={creditsImage}/>
                            Credits
                         </div>
                     </div>
