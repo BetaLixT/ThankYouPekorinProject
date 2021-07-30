@@ -5,6 +5,7 @@ import Index from "../page-components/index"
 import Seo from "../components/seo"
 import Messages from "../page-components/messages"
 import Minecraft from "../page-components/minecraft"
+import Article from "../page-components/article"
 
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
         <Index path="/" />
         <Messages path="/messages" />
         <Minecraft path="/minecraft" />
-        <Index path="/article" />
+        <Article path="/article" />
         <Index path="/credits" />
       </Router>
     </div>

@@ -96,7 +96,7 @@ body {
 .articles{
   padding: 30px 100px 10px 100px;
   margin: 40px 0px 40px 0px;
-  background: none no-repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+  background: none no-repeat scroll 0 0 #264653;
   backdrop-filter: blur(5px);
   color: #cccccc;
   border-radius: 5px;
@@ -144,6 +144,7 @@ p.emphasis{
 .background-image {
   background-position: center 15%;
   background-size: cover;
+  background-color: #e76f51;
   position: fixed;
   z-index: -5;
   top: 0;
@@ -178,7 +179,7 @@ p.emphasis{
   margin-left: auto;
   margin-right: auto;
   max-width: 1500px;
-  padding: 20px 100px 20px 170px;
+  padding: 1rem 1rem 1.45rem 170px;
 }
 
 @media (max-width: 975px) {
