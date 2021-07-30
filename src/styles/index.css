@@ -170,7 +170,16 @@ a#link1, a#link2, a#link3 {
 }
 .nav-category img {
     max-width: 90%;
+    transition: all 0.3s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(100%);
 }
+  
+  /* The Transformation */
+  .nav-category:hover img {
+    filter: brightness(50%);
+    transform: scale(1.01);
+  }
 
 @media (max-width: 419px) {
     .nav-category {

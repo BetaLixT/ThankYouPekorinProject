@@ -1,11 +1,10 @@
 .credit{
-    vertical-align:top;
     display: inline-block;
     height: auto;
-    width: 200px;
-    text-align: center;
-    padding-left: 10px;
     padding: 20px 0px 10px 10px;
+    text-align: center;
+    vertical-align:top;
+    width: 200px;
 }
 
 .credit-container h5{
@@ -18,6 +17,7 @@
 
 .credit ul{
     margin: 0px;
+    padding: 0px;
 }
 
 .credit li{
@@ -52,4 +52,9 @@
     width: 150px;
     text-align: center;
     vertical-align:top
+}
+
+.credit a{
+    color: #e76f51;
+    text-decoration: none;
 }

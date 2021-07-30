@@ -39,7 +39,7 @@ export default class IndexPage extends React.Component {
                 <div id="background" style={{backgroundImage: "url('" + backgroundImageWebp + "')"}}></div>
                 <div id="above-navigation">
                     <div id="home-top-nav">
-                        <h2 class="nav-content">Thank You Pekorin</h2>
+                        <h2 class="nav-content">Viva La Pekorin</h2>
                         <a className="nav-content-right navbar-icon" href="https://www.youtube.com/channel/UCvhCkCIlULdT8d_d8Mu6DZQ">
                             <img
                             alt="youtube logo"
