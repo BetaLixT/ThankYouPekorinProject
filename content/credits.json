@@ -1,0 +1,490 @@
+[
+    {
+        "name": "Drunk Guy Yelling At Everyone",
+        "credits": [
+            {
+                "name": "Pekorin",
+                "roles": ["Chief of Staffs"],
+                "twitterHandle": "Pekorin_Knight"
+            }
+        ],
+        "textSection": "\"To all those that have worked on, participated and contributed to this project. I would like to give my thanks to the community that has come together from distant lands, in many forms, and ideas to create and build something for the one we call Tenchou\""
+    },
+    {
+        "name": "One Million Project Website",
+        "credits": [
+            {
+                "name": "BetaLixT",
+                "roles": ["Project Head", "Manager"],
+                "twitterHandle": "BetaLixT"
+            },
+            {
+                "name": "Dominik K",
+                "roles": ["Website Advisor", "Backend Staff"],
+                "twitterHandle": "Dominik_KFBeats"
+            },
+            {
+                "name": "ZeroRyuk",
+                "roles": ["Website Advisor", "Backend Staff"],
+                "twitterHandle": "zero_ryuk"
+            },
+            {
+                "name": "Jarzyna",
+                "roles": ["General Staff", "Website Review"],
+                "twitterHandle": "SadCreeper"
+            },{
+                "name": "NaGeL",
+                "roles": ["Project Lead", "Advisor"],
+                "twitterHandle": "KFPBeat_NaGeL"
+            },
+            {
+                "name": "JagdCrab",
+                "roles": ["Website Advisor", "Backend Staff"],
+                "twitterHandle": "JagdCrab"
+            },
+            {
+                "name": "Sant268",
+                "roles": ["General Staff", "Backend Staff"],
+                "twitterHandle": "kfpcalendar"
+            },
+            {
+                "name": "Kyuu",
+                "roles": ["Design Consultant"]
+            },
+            {
+                "name": "Luna",
+                "roles": ["Design Consultant", "Discord: luna#8888"]
+            },
+            {
+                "name": "Leficios",
+                "roles": ["Editorial staff"],
+                "twitterHandle": "Leffycios"
+            },
+            {
+                "name": "Makai Kishi",
+                "roles": ["Editorial staff"],
+                "twitterHandle": "equip_the_sword"
+            },
+            {
+                "name": "Totang",
+                "roles": ["Website reviewer"],
+                "twitterHandle": "totangtotan"
+            },
+            {
+                "name": "UnstoppablePhoenix",
+                "roles": ["Editor", "Reviewer"],
+                "twitterHandle": "UnstPhoenix"
+            }
+        ]
+    },
+    {
+        "name": "Artists",
+        "credits": [
+            {
+                "name": "Axel Diamandis",
+                "roles": ["End of Compilation Video Art Piece"],
+                "twitterHandle": "AxelDiamandisEN"
+            },
+            {
+                "name": "Yuuka",
+                "roles": ["Website Icon Design"],
+                "twitterHandle": "rrin_reen"
+            },
+            {
+                "name": "Yuna",
+                "roles": ["KFN Background Art"],
+                "twitterHandle": "Yunaree"
+            },
+            {
+                "name": "ShiroNeko",
+                "roles": ["From The KFP Background Art"],
+                "twitterHandle": "shironekoKFP"
+            },
+            {
+                "name": "SlimeGummie",
+                "roles": ["1 Million Works Background Art", "The Journey Background Art"],
+                "twitterHandle": "slimegummie"
+            },
+            {
+                "name": "Soranana",
+                "roles": ["Homepage Background Art"],
+                "twitterHandle": "SoraBananasan"
+            },
+            {
+                "name": "Dandan",
+                "roles": ["Community Canvas Center Piece"],
+                "twitterHandle": "Danielo07060298"
+            },
+            {
+                "name": "Dakuma",
+                "roles": ["Front Page Cover Art"],
+                "twitterHandle": "Dakuma_Art"
+            }
+        ]
+    },
+    {
+        "name": "Community Canvas",
+        "credits": [
+            {
+                "name": "JagdCrab",
+                "roles": ["Project Manager"],
+                "twitterHandle": "JagdCrab"
+            }
+        ]
+    },
+    {
+        "name": "Congratulatory Messages",
+        "credits": [
+            {
+                "name": "Magic",
+                "roles": ["Project Lead Manager"],
+                "twitterHandle": "MagicKFP"
+            },
+            {
+                "name": "Totang",
+                "roles": ["JP Project Coordinator"],
+                "twitterHandle": "totangtotan"
+            }
+        ]
+    },
+    {
+        "name": "Kiara Family News",
+        "credits": [
+            {
+                "name": "Kiara Family News",
+                "twitterHandle": "KiaraFamilyNews"
+            },
+            {
+                "name": "Pudding",
+                "roles": ["Editor"],
+                "twitterHandle": "von_pudding"
+            },
+            {
+                "name": "Winterbunny",
+                "roles": ["Journalist- Road to 1 Million Article"],
+                "twitterHandle": "Winterbunny12"
+            },
+            {
+                "name": "Makai Kishi Blaster Jungle",
+                "roles": ["Lead Editor"],
+                "twitterHandle": "equip_the_sword"
+            },
+            {
+                "name": "Tython",
+                "roles": ["Journalist - Highlights of the Journey"],
+                "twitterHandle": "tython199"
+            },
+            {
+                "name": "Zephyr Kitten",
+                "roles": ["Journalist- Thank You Message From the Community"],
+                "twitterHandle": "ZephyrKitten"
+            },
+            {
+                "name": "Unstoppable Phoenix",
+                "roles": ["Editor"],
+                "twitterHandle": "UnstPhoenix"
+            },
+            {
+                "name": "Syrak",
+                "roles": ["Social Media Handler"],
+                "twitterHandle": "Tsunderak"
+            },
+            {
+                "name": "Leficios",
+                "roles": ["Editor"],
+                "twitterHandle": "Leffycios"
+            }
+        ]
+    },
+    {
+        "name": "Compilation Video",
+        "credits": [
+            {
+                "name": "Yuriko",
+                "roles": ["Project Lead Video Editor", "Clipper"],
+                "youtube": "https://www.youtube.com/channel/UCjev_F1L2mufza6PEkLFniQ",
+                "twitterHandle": "Yuriko_kunn"
+            },
+            {
+                "name": "Pudding",
+                "roles": ["Assistant Editor", "Clipper"],
+                "youtube": "https://www.youtube.com/channel/UCzHYSSm1KW2NiqzX_u0iCEQ",
+                "twitterHandle": "von_pudding"
+            },
+            {
+                "name": "FoodMe",
+                "roles": ["Assistant Clipper", "Advisor"],
+                "twitterHandle": "F00dMee"
+            },
+            {
+                "name": "King Mufasa",
+                "roles": ["Assistant Clipper", "Advisor"],
+                "twitterHandle": "KingMufasa_8"
+            },
+            {
+                "name": "Jarzyna",
+                "roles": ["Advisor", "Reviewer"],
+                "twitterHandle": "SadCreeper"
+            },
+            {
+                "name": "Odzi",
+                "roles": ["Assistant Clipper", "Editor"],
+                "twitterHandle": "OudziNUTZ"
+            },
+            {
+                "name": "Dominik K",
+                "roles": ["Advisor", "Assistant Editor"],
+                "twitterHandle": "Dominik_KFBeats"
+            },
+            {
+                "name": "Apollo",
+                "roles": ["Clipper", "Editor"],
+                "twitterHandle": "ppopularopinion"
+            },
+            {
+                "name": "Magic",
+                "roles": ["Assistant staff"],
+                "twitterHandle": "MagicKFP"
+            },
+            {
+                "name": "JagdCrab",
+                "roles": ["Assistant Staff"],
+                "twitterHandle": "JagdCrab"
+            }
+        ]
+    },
+    {
+        "name": "KFP Minecraft",
+        "credits": [
+            {
+                "name": "Kalmen",
+                "roles": ["Project Manager", "Organizer", "Builder", "Resource Staff"],
+                "twitterHandle": "DerKalmen"
+            },
+            {
+                "name": "NaGeL",
+                "roles": ["Project Technical Manager", "Advisor"],
+                "twitterHandle": "KFPBeat_NaGeL"
+            },
+            {
+                "name": "Maro",
+                "roles": ["Designer", "Build Specialist"],
+                "twitterHandle": "marofure"
+            },
+            
+            {
+                "name": "Repoyo",
+                "roles": ["Treehouse Specialist", "Builder - Repoyo Kensetsu"]
+            },
+            {
+                "name": "Saxmith",
+                "roles": ["Designer and Builder- Piemaker Industrial Evil (P.I.E.)"]
+            },
+            {
+                "name": "BenniBenBau",
+                "roles": ["Designer and Builder", "Video Recording Specialist- AEG Industries"]
+            },
+            {
+                "name": "Kisachi",
+                "roles": ["Designer and Builder Specialist - AEG Industries"]
+            },
+            {
+                "name": "Sea_Kerman",
+                "roles": ["Redstone Engineer"],
+                "twitterHandle": "KermanSea"
+            },
+            {
+                "name": "Ethos",
+                "roles": ["Designer and Builder - TalCorp"]
+            },
+            {
+                "name": "Apollo",
+                "roles": ["Design Specialist", "Explosive Technician"],
+                "twitterHandle": "ppopularopinion"
+            },
+            {
+                "name": "KFP Scooter",
+                "roles": ["Builder", "Resource Staff- AEG Industries"]
+            },
+            {
+                "name": "Jarzyna",
+                "roles": ["Resource Staff"],
+                "twitterHandle": "SadCreeper"
+            },
+            {
+                "name": "FrozenChikin",
+                "roles": ["Resource Staff"],
+                "twitterHandle":"FrozenChikin"
+            },
+            {
+                "name": "Pekorin",
+                "roles": ["Civil Services"],
+                "twitterHandle": "Pekorin_Knight"
+            },
+            {
+                "name": "AlliniaV",
+                "roles": ["Builder- Vanilla.Co"]
+            },
+            {
+                "name": "Heath06",
+                "roles": ["Assistant builder"]
+            },
+            {
+                "name": "FoodMe",
+                "roles": ["Editor", "Video Arrangement"],
+                "twitterHandle": "F00dMee"
+            },
+            {
+                "name": "Odzi",
+                "roles": ["Timeline Video Editor"],
+                "twitterHandle": "OudziNUTZ"
+            },
+            {
+                "name": "Bluemap-Minecraft",
+                "source": "https://github.com/BlueMap-Minecraft/BlueMap"
+            }
+        ]
+    },
+    {
+        "name": "Final Fantasy XIV",
+        "credits": [
+            {
+                "name": "Hokan",
+                "roles": ["Project Manager"],
+                "twitterHandle": "HokanKFP"
+            },
+            {
+                "name": "Luxter",
+                "roles": ["FC Leader", "FFXIV KFP Branch Owner"],
+                "twitterHandle": "Luxt3r"
+            },
+            {
+                "name": "ZThinker",
+                "roles": ["FFXIV Branch Employee"],
+                "twitterHandle": "ZSimper_"
+            },
+            {
+                "name": "Kurobotto",
+                "roles": ["FFXIV Branch Employee"],
+                "twitterHandle": "kuroibotto"
+            },
+            {
+                "name": "Silver",
+                "roles": ["FFXIV Branch Employee"],
+                "twitterHandle": "silvetongued"
+            },
+            {
+                "name": "Ravenhost",
+                "roles": ["FFXIV Branch Employee"]
+            },
+            {
+                "name": "Fro Fro",
+                "roles": ["FFXIV Branch Employee"]
+            },
+            {
+                "name": "Elis Nene",
+                "roles": ["FFXIV Branch Employee"],
+                "twitterHandle":"Snowbind1"
+            },
+            {
+                "name": "LogicalParadox",
+                "roles": ["FFXIV Branch Employee"]
+            },
+            {
+                "name": "HiddenPandas",
+                "roles": ["FFXIV Branch Employee"]
+            },
+            {
+                "name": "Snake Logan",
+                "roles": ["FFXIV Branch Employee"]
+            },
+            {
+                "name": "Syrak",
+                "roles": ["FFXIV Branch Employee"],
+                "twitterHandle": "Tsunderak"
+            },
+            {
+                "name": "Pudding",
+                "roles": ["Video Editor"],
+                "twitterHandle":"von_pudding"
+            },
+            {
+                "name": "FoodMe",
+                "roles": ["Video Editor"],
+                "twitterHandle": "F00dMee"
+            }
+        ]
+    },
+    {
+        "name": "Music Composer",
+        "credits": [
+            {
+                "name": "Deemos Harlos",
+                "roles": ["BGM Arrange", "Recording", "Mix"],
+                "twitterHandle": "DeemoHarlos"
+            }
+        ]
+    },
+    {
+        "name": "Sources/Project Credits",
+        "credits": [
+            {
+                "name": "Takanashi Kiara",
+                "roles": ["Hololive EN Talent"],
+                "twitterHandle": "takanashikiara",
+                "youtube": "https://www.youtube.com/channel/UCHsx4Hqa-1ORjQTh9TYDhww"
+            },
+            {
+                "name": "KFP",
+                "roles": ["Discord Server"]
+            },
+            {
+                "name": "KFP TW",
+                "roles": ["Discord Server"]
+            },
+            {
+                "name": "KFP | The Office",
+                "roles": ["Discord Server"]
+            },
+            {
+                "name": "KFP International",
+                "roles": ["Fans from all around the world"]
+            },
+            {
+                "name": "Ian Post",
+                "roles": ["Circus Clown", "MC Timeline BGM"],
+                "source": "https://www.youtube.com/watch?v=vw5HpZIslus"
+            },
+            {
+                "name": "Umiboshi",
+                "roles": ["Guitar"],
+                "twitterHandle": "Umiboshi",
+                "sourceText":"Hinotori Bossa Nova Remix",
+                "source":"https://www.youtube.com/watch?v=3eFw9xRCUM4"
+            },
+            {
+                "name": "ChrisPowza",
+                "roles": ["Drums"],
+                "twitterHandle": "ChrisPowza",
+                "sourceText":"Hinotori Bossa Nova Remix",
+                "source":"https://www.youtube.com/watch?v=3eFw9xRCUM4"
+            },
+            {
+                "name": "Minecraft",
+                "source": "https://www.minecraft.net/en-us"
+            },
+            {
+                "name": "KFP Kensetsu"
+            },
+            {
+                "name": "FFXIV KFP Branch",
+                "roles": ["Server: Ragnorok", "Data Center: Chaos"]
+            },
+            {
+                "name": "Compilation Video Credits BGM",
+                "roles": ["Bokura No Ashiato Acoustic cover by Takanashi Kiara"],
+                "source": "https://www.youtube.com/watch?v=98Yx9TuE09A"
+            }
+        ]
+    }
+]

@@ -6,6 +6,8 @@ import Seo from "../components/seo"
 import Messages from "../page-components/messages"
 import Minecraft from "../page-components/minecraft"
 import Article from "../page-components/article"
+import Credits from "../page-components/credits"
+
 
 
 const App = () => {
@@ -19,7 +21,7 @@ const App = () => {
         <Messages path="/messages" />
         <Minecraft path="/minecraft" />
         <Article path="/article" />
-        <Index path="/credits" />
+        <Credits path="/credits" />
       </Router>
     </div>
   )
