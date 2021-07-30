@@ -6,7 +6,7 @@ import NavigationBar from "../components/navigation"
 import Gallery from "../components/react-photo-gallery/Gallery"
 import Message from "../components/Message"
 
-import BackgroundImage from "../images/dot-e76f51.png"
+import BackgroundImage from "../images/dot-r-cb6f51.png"
 import messagesData from "../../content/messages.json"
 
 const Messages = () => (

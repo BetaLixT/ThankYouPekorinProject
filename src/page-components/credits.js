@@ -7,7 +7,7 @@ import NavigationBar from "../components/navigation"
 import ContentNavigation from "../components/contentNavigation"
 import GoToTop from "../components/goToTop"
 
-import BackgroundImage from "../images/dot-e76f51.png"
+import BackgroundImage from "../images/dot-r-cb6f51.png"
 import creditSets from "../../content/credits.json"
 
 

@@ -1,5 +1,5 @@
 import "../components/common"
-import BackgroundImage from "../images/dot-e76f51.png"
+import BackgroundImage from "../images/dot-r-cb6f51.png"
 // import "../styles/kfn/thankYou.css"
 
 import * as React from "react"

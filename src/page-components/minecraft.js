@@ -5,7 +5,7 @@ import NavigationBar from "../components/navigation"
 
 import Button from "react-bootstrap/Button"
 import MinecraftPopup from "../components/minecraftPopup"
-import BackgroundImage from "../images/dot-e76f51.png"
+import BackgroundImage from "../images/dot-r-cb6f51.png"
 
 export default class MinecraftPage extends React.Component {
 
