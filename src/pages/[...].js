@@ -4,6 +4,7 @@ import { Router } from "@reach/router"
 import Index from "../page-components/index"
 import Seo from "../components/seo"
 import Messages from "../page-components/messages"
+import Minecraft from "../page-components/minecraft"
 
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
       <Router basepath="/">
         <Index path="/" />
         <Messages path="/messages" />
-        <Index path="/minecraft" />
+        <Minecraft path="/minecraft" />
         <Index path="/article" />
         <Index path="/credits" />
       </Router>

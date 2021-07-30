@@ -48,7 +48,7 @@ export default class NavigationBar extends React.Component {
           return(
             <div>
                 <div id={navbarId} className="scrolling" bg="primary" variant="dark" expand="lg" fixed="top">
-                    <Link className="nav-content title" to="/"><h2>Thank You Pekorin</h2></Link>
+                    <Link className="nav-content title" to="/"><h2>Viva La Pekorin</h2></Link>
                     <Link className="nav-content pagelink" to="/messages"><p>Messages</p></Link>
                     <Link className="nav-content pagelink" to="/minecraft"><p>Minecraft</p></Link>
                     <Link className="nav-content pagelink" to="/article"><p>Article</p></Link>

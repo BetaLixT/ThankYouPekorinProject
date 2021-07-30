@@ -16,11 +16,11 @@ const Messages = () => (
     <div className="common-content-container">
       <div className="articles-nobg">
           <h1>Messages for the General!</h1>
-          <p>From around the world, KFP employees have written messages of congratulations for their Tenchou on her birthday! From many languages, ages and time zones, with messages long and short, they all share a common goal: to wish the boss a happy birthday from the bottom of their hearts.</p>
+          <p>Laboris veniam amet duis occaecat deserunt ad esse veniam nulla anim. Id laborum anim officia quis commodo. Elit labore consectetur veniam excepteur nisi amet ullamco id laboris commodo excepteur. Magna consequat eu dolor est fugiat. Voluptate nulla minim proident ea voluptate consectetur ut. Non pariatur in occaecat duis minim occaecat duis amet. Laborum consectetur ea nostrud quis elit excepteur voluptate enim enim eiusmod reprehenderit veniam cillum et.</p>
       </div>
     </div>
     
-    <div className="common-large-content-container blur">
+    <div className="common-large-content-container">
         <Gallery photos={messagesData} margin={5} direction={"column"} renderImage={Message}/>
     </div>
   </div>
