@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 
 import twitterLogo from "../images/twitter-logo-blk.svg"
 import youtoriLogo from "../images/youtori-logo-blk.png"
+import hamburgerLogo from "../images/134216_menu_lines_hamburger_icon.png"
 
 
 const navbarId = "navbar"
@@ -49,24 +50,32 @@ export default class NavigationBar extends React.Component {
             <div>
                 <div id={navbarId} className="scrolling" bg="primary" variant="dark" expand="lg" fixed="top">
                     <Link className="nav-content title" to="/"><h2>Viva La Pekorin</h2></Link>
-                    <Link className="nav-content pagelink" to="/messages"><p>Messages</p></Link>
-                    <Link className="nav-content pagelink" to="/minecraft"><p>Minecraft</p></Link>
-                    <Link className="nav-content pagelink" to="/article"><p>Article</p></Link>
-                    <Link className="nav-content pagelink" to="/credits"><p>Credits</p></Link>
-                    <a className="nav-content right navbar-icon" href="https://www.youtube.com/channel/UCvhCkCIlULdT8d_d8Mu6DZQ">
-                        <img
-                        alt="youtube logo"
-                        src={youtoriLogo}
-                        height={25}
-                        />
-                    </a>
-                    <a className="nav-content right navbar-icon" href="https://twitter.com/KFP_TheOffice">
+                    <a className="right mobile-hamburger" href="https://twitter.com/KFP_TheOffice">
                         <img
                         alt="twitter logo"
-                        src={twitterLogo}
-                        height={25}
+                        src={hamburgerLogo}
                         />
                     </a>
+                    <div className="nav-container">
+                        <Link className="nav-content pagelink" to="/messages"><p>Messages</p></Link>
+                        <Link className="nav-content pagelink" to="/minecraft"><p>Minecraft</p></Link>
+                        <Link className="nav-content pagelink" to="/article"><p>Article</p></Link>
+                        <Link className="nav-content pagelink" to="/credits"><p>Credits</p></Link>
+                        <a className="nav-content right navbar-icon" href="https://www.youtube.com/channel/UCvhCkCIlULdT8d_d8Mu6DZQ">
+                            <img
+                            alt="youtube logo"
+                            src={youtoriLogo}
+                            height={25}
+                            />
+                        </a>
+                        <a className="nav-content right navbar-icon" href="https://twitter.com/KFP_TheOffice">
+                            <img
+                            alt="twitter logo"
+                            src={twitterLogo}
+                            height={25}
+                            />
+                        </a>
+                    </div>
                 </div>
                 <div id={paddingId}></div>
             </div>

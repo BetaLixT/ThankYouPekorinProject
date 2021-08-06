@@ -71,6 +71,10 @@ body {
   color: black;
 }
 
+.mobile-hamburger img {
+  display: none;
+}
+
 .btn-primary {
   color: #ccc;
   background-color: #264653;
@@ -209,4 +213,45 @@ p.emphasis{
   .common-content-with-nav-container{
     padding: 1rem 1rem 1.45rem;
   }
+
+  .nav-container{
+    height: 0px;
+    overflow-y: hidden;
+    transition: all .3s ease;
+  }
+
+  .active .nav-container{
+    height: auto;
+    visibility: visible;
+    overflow-y: scroll;
+  }
+
+  #navbar.scrolling {
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    backdrop-filter: blur(30px);
+  }
+
+  #navbar.active {
+    padding: 40px;
+    backdrop-filter: blur(30px);
+  }
+
+  #navbar .nav-content{
+    float: none;
+  }
+
+  #navbar .nav-content.title{
+    float: left;
+  }
+
+  
+  .mobile-hamburger img {
+    height: 30px;
+    width: auto;
+    float: right;
+    display: block;
+  }
+  
 }
