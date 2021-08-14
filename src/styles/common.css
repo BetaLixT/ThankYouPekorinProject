@@ -243,14 +243,24 @@ p.emphasis{
   }
 
   #navbar .nav-content.title{
-    float: left;
   }
 
   
   .mobile-hamburger img {
     height: 30px;
+    right: 60px;
+    top: 35px;
     width: auto;
-    float: right;
+    position: absolute;
+    display: block;
+  }
+
+  .scrolling .mobile-hamburger img {
+    height: 30px;
+    right: 60px;
+    top: 20px;
+    width: auto;
+    position: absolute;
     display: block;
   }
   

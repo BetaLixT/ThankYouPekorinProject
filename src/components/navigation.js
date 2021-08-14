@@ -14,7 +14,7 @@ export default class NavigationBar extends React.Component {
 
     constructor(props) {
         super(props)
-        this.state = { className: null }
+        this.state = { className: null, isOpen: false }
         this.state.className = props.className
       }
 
@@ -42,6 +42,20 @@ export default class NavigationBar extends React.Component {
                 document.getElementById(navbarId).classList.remove("scrolling");
             }
     }
+
+    toggleContents(isOpen)
+    {
+        if(isOpen)
+        {
+            document.getElementById(navbarId).classList.remove('active')
+            this.setState({ isOpen: false })
+        }
+        else
+        {
+            document.getElementById(navbarId).classList.add('active')
+            this.setState({ isOpen: true })
+        }
+    }
     
      // navbar-brand
       render()
@@ -50,7 +64,7 @@ export default class NavigationBar extends React.Component {
             <div>
                 <div id={navbarId} className="scrolling" bg="primary" variant="dark" expand="lg" fixed="top">
                     <Link className="nav-content title" to="/"><h2>Viva La Pekorin</h2></Link>
-                    <a className="right mobile-hamburger" href="https://twitter.com/KFP_TheOffice">
+                    <a className="right mobile-hamburger" onClick={() => { this.toggleContents(this.state.isOpen); this.setState({ isOpen: !this.state.isOpen }); }}>
                         <img
                         alt="twitter logo"
                         src={hamburgerLogo}
