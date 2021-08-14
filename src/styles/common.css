@@ -200,6 +200,10 @@ p.emphasis{
     padding: 30px 30px 10px 30px;
   }
 
+  .articles-nobg{
+    padding: 30px 30px 10px 30px;
+  }
+
   .common-large-content-container{
     padding: 0 1rem 1.45rem;
     max-width: 1660;
@@ -242,7 +246,8 @@ p.emphasis{
     float: none;
   }
 
-  #navbar .nav-content.title{
+  .nav-content-title-div{
+    width: fit-content;
   }
 
   
@@ -253,12 +258,13 @@ p.emphasis{
     width: auto;
     position: absolute;
     display: block;
+    cursor: pointer;
   }
 
   .scrolling .mobile-hamburger img {
     height: 30px;
     right: 60px;
-    top: 20px;
+    top: 15px;
     width: auto;
     position: absolute;
     display: block;

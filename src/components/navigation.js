@@ -63,7 +63,7 @@ export default class NavigationBar extends React.Component {
           return(
             <div>
                 <div id={navbarId} className="scrolling" bg="primary" variant="dark" expand="lg" fixed="top">
-                    <Link className="nav-content title" to="/"><h2>Viva La Pekorin</h2></Link>
+                    <div className="nav-content-title-div"><Link className="nav-content title" to="/"><h2>Viva La Pekorin</h2></Link></div>
                     <a className="right mobile-hamburger" onClick={() => { this.toggleContents(this.state.isOpen); this.setState({ isOpen: !this.state.isOpen }); }}>
                         <img
                         alt="twitter logo"
