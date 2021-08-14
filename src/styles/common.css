@@ -269,5 +269,9 @@ p.emphasis{
     position: absolute;
     display: block;
   }
+
+  .active .mobile-hamburger img {
+    top: 35px;
+  }
   
 }
