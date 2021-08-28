@@ -15,7 +15,7 @@ const App = () => {
     <div>
       <Seo title="VivaLaKiara - From the KFP"
         description="The KFP celebrates Tenchou's Birthday with a fiery passion around the world!"
-        image="https://vivalakiara.com/lio-meta-art.jpg"/>
+        image="https://vivalapekorin.vercel.app/PekorinThankYouMeta.jpg"/>
       <Router basepath="/">
         <Index path="/" />
         <Messages path="/messages" />

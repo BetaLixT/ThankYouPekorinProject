@@ -5,13 +5,14 @@ import { Link } from "gatsby"
 
 import "../styles/index.css"
 
-import twitterLogo from "../images/twitter-logo-blk.svg"
-import youtoriLogo from "../images/youtori-logo-blk.png"
+import twitterLogo from "../images/twitter-logo.svg"
+import youtoriLogo from "../images/youtori-logo.png"
 import placeHolderImage from "../images/Et2G4dMXUAED6mL.jpg"
 import creditsImage from "../images/slime-credits.jpg"
 import articleImage from "../images/yuka-article.jpg"
-import backgroundImage from "../images/liobg.jpg"
-import backgroundImageWebp from "../images/liobg.webp"
+import minecraftImage from "../images/yuka-mc.jpg"
+import backgroundImage from "../images/PekorinThankYouOpt.jpg"
+import backgroundImageWebp from "../images/PekorinThankYou.webp"
 import webpCheck from "../components/webpCheck"
 
 export default class IndexPage extends React.Component {
@@ -70,7 +71,7 @@ export default class IndexPage extends React.Component {
                         </div>
                         <div className="nav-category">
                             <Link to="/minecraft">
-                                <img src={placeHolderImage}/>
+                                <img src={minecraftImage}/>
                                 Minecraft
                             </Link>
                         </div>
