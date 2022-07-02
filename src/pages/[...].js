@@ -13,9 +13,9 @@ import Credits from "../page-components/credits"
 const App = () => {
   return (
     <div>
-      <Seo title="VivaLaKiara - From the KFP"
-        description="The KFP celebrates Tenchou's Birthday with a fiery passion around the world!"
-        image="https://vivalapekorin.vercel.app/PekorinThankYouMeta.jpg"/>
+      <Seo title="VivaLaPekorin"
+        description="VIVA LA PEKORIN!!"
+        image="https://vivalapekorin.vercel.app/PekorinWelcomeBackMeta.jpeg"/>
       <Router basepath="/">
         <Index path="/" />
         <Messages path="/messages" />
