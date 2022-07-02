@@ -70,12 +70,6 @@ export default class IndexPage extends React.Component {
                             </Link>
                         </div>
                         <div className="nav-category">
-                            <Link to="/minecraft">
-                                <img src={minecraftImage}/>
-                                Minecraft
-                            </Link>
-                        </div>
-                        <div className="nav-category">
                             <Link to="/article">
                                 <img src={articleImage}/>
                                 Article
