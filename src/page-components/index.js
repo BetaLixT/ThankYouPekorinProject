@@ -11,8 +11,8 @@ import placeHolderImage from "../images/Et2G4dMXUAED6mL.jpg"
 import creditsImage from "../images/slime-credits.jpg"
 import articleImage from "../images/yuka-article.jpg"
 import minecraftImage from "../images/yuka-mc.jpg"
-import backgroundImage from "../images/PekorinThankYouOpt.jpg"
-import backgroundImageWebp from "../images/PekorinThankYou.webp"
+import backgroundImage from "../images/PekorinWelcomeBack.jpeg"
+import backgroundImageWebp from "../images/PekorinWelcomeBack.webp"
 import webpCheck from "../components/webpCheck"
 
 export default class IndexPage extends React.Component {
