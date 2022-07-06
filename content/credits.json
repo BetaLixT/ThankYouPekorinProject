@@ -53,11 +53,14 @@
         "credits": [
             {
                 "name": "BetaLixT",
-                "roles": ["Lead Developer"]
+                "roles": ["Lead Developer"],
+                "twitterHandle": "BetaLixT"
             },
             {
                 "name": "Dominik K",
-                "roles": ["Developer"]
+                "roles": ["Developer"],
+                "twitterHandle": "Dominik_KFBeats"
+
             },
             {
                 "name": "ŁIO",
