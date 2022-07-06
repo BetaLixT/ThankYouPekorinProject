@@ -5,26 +5,32 @@
             {
                 "name": "Jarzyna",
                 "roles": ["General Staff"]
+                "twitterHandle": "SadCreeper"
             },
             {
                 "name": "Apollo",
-                "roles": ["General Staff"]
+                "roles": ["General Staff"],
+                "twitterHandle": "ApolloAGod_KFP"
             },
             {
                 "name": "Magic",
-                "roles": ["General Staff"]
+                "roles": ["General Staff"],
+                "twitterHandle": "MagicKFP"
             },
             {
                 "name": "Strategic_hero",
-                "roles": ["General Staff"]
+                "roles": ["General Staff"],
+                "twitterHandle": "HrKfp"
             },
             {
                 "name": "Davkas",
-                "roles": ["General Staff"]
+                "roles": ["General Staff"],
+                "twitterHandle": "DavkasKFP"
             },
             {
                 "name": "FoodMe",
-                "roles": ["General Staff"]
+                "roles": ["General Staff"],
+                "twitterHandle": "F00dMee"
             },
             {
                 "name": "UnstoppablePhoenix",
@@ -36,7 +42,9 @@
         "name": "KFN",
         "credits": [
             {
-                "name": "Apollo"
+                "name": "Apollo",
+                "roles": ["Writer"],
+                "twitterHandle": "ApolloAGod_KFP"
             }            
         ]
     },
@@ -44,10 +52,12 @@
         "name": "Website",
         "credits": [
             {
-                "name": "BetaLixT"
+                "name": "BetaLixT",
+                "roles": ["Lead Developer"]
             },
             {
-                "name": "Dominik K"
+                "name": "Dominik K",
+                "roles": ["Developer"]
             },
             {
                 "name": "ŁIO",
